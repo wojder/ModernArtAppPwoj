@@ -3,4 +3,5 @@
     <item name="relativeLayout3" type="id">relativeLayout3</item>
     <item name="relativeLayout4" type="id">relativeLayout4</item>
     <item name="relativeLayout5" type="id">relativeLayout5</item>
+    <item name="action_settings2" type="id">test options menu</item>
 </resources>

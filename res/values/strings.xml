@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ModernArtPWoj</string>
+    <string name="builder_title">Title of builder</string>
+    <string name="negative">Cancel</string>
+    <string name="positive">Go to page www</string>
+    <string name="builder_message">You have a choice:</string>
+    <string name="title">More informations</string>
 </resources>
