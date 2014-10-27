@@ -9,7 +9,7 @@ import android.webkit.WebViewClient;
  */
 public class NewWebViewClient extends WebViewClient {
 
-private static final String TAG = "Hello NewWebClient";
+    private static final String TAG = "Hello NewWebClient";
 
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {

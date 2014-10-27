@@ -7,10 +7,10 @@ import android.webkit.WebView;
 /**
  * Created by wojder on 23.10.14.
  */
-public class MenuActivity extends Activity{
+public class WebActivity extends Activity{
 
     WebView webview;
-    String url = "http://www.google.pl";
+    private String url = "www.moma.org";
 
 
     @Override
