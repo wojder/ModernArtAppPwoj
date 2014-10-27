@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
 
@@ -7,53 +9,81 @@
                     android:layout_height="match_parent"
                     tools:context=".MainActivity">
 
+
+    <WebView
+            android:id="@+id/webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
     <RelativeLayout android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:padding="5dp">
-    <RelativeLayout android:layout_width="65dp"
-                    android:layout_height="65dp"
-                    android:background="#FF8080"
-                    android:layout_alignParentStart="true"
-                    android:id="@+id/relativeLayout1">
+                    android:padding="2dp">
+
+        <RelativeLayout android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="#FF1234"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/relativeLayout1">
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="#FFffff"
+                        android:layout_toEndOf="@id/relativeLayout1"
+                        android:layout_alignParentTop="true"
+                        android:id="@+id/relativeLayout2">
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="#660000"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@id/relativeLayout1"
+                        android:id="@+id/relativeLayout3">
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#FF3115"
+                        android:id="@+id/relativeLayout4"
+                        android:layout_toEndOf="@+id/relativeLayout2"
+                        android:layout_alignParentTop="true">
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="#7F1616"
+                        android:layout_below="@id/relativeLayout3"
+                        android:id="@+id/relativeLayout5">
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="#AF2C1B"
+                        android:layout_toEndOf="@id/relativeLayout4"
+                        android:id="@+id/relativeLayout6">
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:background="#762B21"
+                        android:layout_below="@id/relativeLayout5"
+                        android:id="@+id/relativeLayout7">
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="210dp"
+                        android:layout_height="210dp"
+                        android:background="#FF7222"
+                        android:layout_toEndOf="@id/relativeLayout6"
+                        android:id="@+id/relativeLayout8">
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="340dp"
+                        android:layout_height="340dp"
+                        android:background="#992A1C"
+                        android:layout_below="@id/relativeLayout7"
+                        android:id="@+id/relativeLayout9">
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="550dp"
+                    android:layout_height="550dp"
+                    android:background="#FF2222"
+                    android:layout_toEndOf="@id/relativeLayout8"
+                    android:id="@+id/relativeLayout10">
+        </RelativeLayout>
     </RelativeLayout>
-    <RelativeLayout android:layout_width="65dp"
-                    android:layout_height="65dp"
-                    android:background="#FF2424"
-                    android:layout_toEndOf="@+id/relativeLayout1"
-                    android:id="@+id/relativeLayout2">
-    </RelativeLayout>
-    <RelativeLayout android:layout_width="130dp"
-                    android:layout_height="130dp"
-                    android:background="#B01515"
-                    android:layout_toEndOf="@+id/relativeLayout1"
-                    android:layout_below="@+id/relativeLayout1"
-                    android:layout_alignParentStart="true"
-                    android:id="@id/relativeLayout3">
-    </RelativeLayout>
-    <RelativeLayout android:layout_width="195dp"
-                    android:layout_height="195dp"
-                    android:background="#8E3535"
-                    android:layout_toEndOf="@+id/relativeLayout3"
-                    android:id="@id/relativeLayout4"
-            >
-    </RelativeLayout>
-    <RelativeLayout android:layout_width="325dp"
-                    android:layout_height="325dp"
-                    android:background="#690808"
-                    android:layout_toEndOf="@+id/relativeLayout3"
-                    android:id="@id/relativeLayout5"
-                    android:layout_below="@id/relativeLayout3"
-                    android:layout_alignParentStart="true">
-    </RelativeLayout>
-    <RelativeLayout
-                    android:layout_width="520dp"
-                    android:layout_height="520dp"
-                    android:layout_toEndOf="@id/relativeLayout5"
-                    android:background="#5D0000"
-                    android:id="@+id/relativeLayout6"
-                    android:layout_alignParentTop="true">
-    </RelativeLayout>
-    </RelativeLayout>
+
 
 </RelativeLayout>
 
