@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomActionBarTheme">
+        <item name="android:background">@android:color/holo_red_dark</item>
+    </style>
+    <style name="AlertDialogCustom" parent="android:DeviceDefault.ButtonBar">
+
+    </style>
+</resources>

@@ -7,11 +7,14 @@
                     android:orientation="vertical"
                     android:layout_width="fill_parent"
                     android:layout_height="match_parent"
-                    tools:context=".MainActivity">
+                    tools:context=".MainActivity"
+                    style="@android:style/Theme.Holo">
+        <!--android:background="@android:color/holo_red_dark"-->
+
 
     <RelativeLayout android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:padding="2dp">
+                    >
 
         <RelativeLayout android:layout_width="10dp"
                         android:layout_height="10dp"
